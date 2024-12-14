@@ -3,3 +3,4 @@
 
 
 - [Project 1:](https://pythonprojects-bandnamegenerator.streamlit.app/) Band Name Generator
+- [Project 2:](https://pythonprojects-tipcalculator.streamlit.app/) Tip Calculator
