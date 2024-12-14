@@ -2,4 +2,4 @@
 30 Basic Python Projects
 
 1. Band Name Generator
-![Demo](/Project-01.mov)
+2. Tip Calcualtor
