@@ -1,4 +1,4 @@
-# Coin Flipper with Typing Effect
+# Coin Flipper 
 
 Welcome to the **Coin Flipper**! This Python program lets you flip a coin virtually with added fun features like typing effects, clear screen functionality, and interactive prompts.
 
