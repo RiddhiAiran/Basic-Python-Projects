@@ -40,42 +40,18 @@ To understand and modify this program, you should be familiar with:
 1. Clone the repository or download the script.
 
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone <https://github.com/RiddhiAiran/Basic-Python-Projects>
+   cd <5_BMI_Calculator>
    ```
 
 2. Run the script using Python.
 
    ```bash
-   python bmi_calculator.py
+   python 5_BMI_Calculator.py
    ```
 
 3. Follow the prompts to calculate your BMI interactively!
 
----
-
-## 📌 Example Output
-
-```text
-Welcome to the BMI Calculator! 🎉
-
-Enter your Name: Alex
-
-Alex, Please Share your weight (in kg): 70
-
-Please Share your height (in meters): 1.75
-
-Your BMI as per the details would be: 22.86
-Category: Normal Weight 🏃
-
-Press Enter to continue...
-```
-
----
-
-## 📜 License
-
-This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
