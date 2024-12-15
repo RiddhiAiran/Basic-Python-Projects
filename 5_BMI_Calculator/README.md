@@ -1,4 +1,4 @@
-# BMI Calculator with Typing Effect
+# BMI Calculator
 
 Welcome to the **BMI Calculator**! This Python program calculates your Body Mass Index (BMI) interactively with user-friendly features like typing effects, a clear screen function, and smooth interaction prompts. 
 
