@@ -3,3 +3,6 @@
 
 
 - [Project 1:](https://pythonprojects-bandnamegenerator.streamlit.app/) Band Name Generator
+
+- [Project 2:]() Tip Calculator
+- [Project 3:]() Treasure Island
