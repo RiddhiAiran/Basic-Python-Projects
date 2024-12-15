@@ -10,7 +10,7 @@ def typing(message, delay=0.05):
     for letter in message:
         print(letter, end='', flush=True)
         time.sleep(delay)
-    print()
+    
 
 def band_name_generator():
     """Generate a band name based on user inputs."""
@@ -18,11 +18,13 @@ def band_name_generator():
     typing("🎸 Welcome to the Band Name Generator! 🎶\n")
     
     # Get user inputs
-    city = input("🏙️  What's the name of the city you grew up in? ").strip()
-    pet = input("\n🐾 What's your pet's name? ").strip()
+    typing("\n🏙️  What's the name of the city you grew up in? ")
+    city = input().strip()
+    typing("\n🐾 What's your pet's name? ")
+    pet = input().strip()
     
     # Display the result
-    typing(f"\n✨ Your Band Name Could Be: The {city.title()} {pet.title()} ✨\n")
+    typing(f"\n✨ Your Band Name Could Be: The {city.title()} {pet.title()} ✨\n\n")
 
 if __name__ == "__main__":
     band_name_generator()

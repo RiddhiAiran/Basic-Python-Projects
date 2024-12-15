@@ -33,20 +33,26 @@ def play_game():
         if lake == 'wait':
             hold_screen()
             clear_screen()
-            typing("🏝️ You have arrived at the island unharmed. 🏠 There is a house with 3 doors.")
-            door = input("🚪 🚪 🚪 One Red, One Yellow and One Blue. Which colour do you choose?: ").lower()
+            typing("🏝️ You have arrived at the island unharmed. 🏠 There is a house with 3 doors.\n🚪 🚪 🚪 One Red, One Yellow and One Blue.")
+            door = input("Which colour do you choose?: ").lower()
             if door == "yellow":
                 typing("🏆 Congrats! You found the treasure 💰💰💰")
+                hold_screen()
             elif door == "red":
                 typing("🔥🔥 Burned by fire! Game Over.")
+                hold_screen()
             elif door == "blue":
                 typing("🦁🦁 Eaten by Beasts! Game Over. 💀")
+                hold_screen()
             else:
                 typing("🏴‍☠️ Game Over 🏴‍☠️")
+                hold_screen()
         else:
             typing("🦈🦈 Attacked by trout, Game Over! 💀")
+            hold_screen()
     else:
         typing("Fall into a hole, Game Over!")
+        hold_screen()
 
 # Main game loop
 while True:
@@ -54,14 +60,16 @@ while True:
     typing("Do you want to play the Treasure Island game? (yes/no) : ")
     start_game = input().lower()
     if start_game == 'yes':
+        hold_screen()
         play_game()
+        # typing("\nDo you want to play again? (yes/no) : ")
+        # replay = input().lower()
+        # if replay != 'yes':
+        #     typing("Thanks for playing! Goodbye! 👋\n")
+        #     break
     else:
-        typing("Goodbye! 👋 See you next time.")
+        typing("Goodbye! 👋 See you next time.\n")
         break
 
     # Replay option after game ends
-    typing("\nDo you want to play again? (yes/no) : ")
-    replay = input().lower()
-    if replay != 'yes':
-        typing("Thanks for playing! Goodbye! 👋")
-        break
+    

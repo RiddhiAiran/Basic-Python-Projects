@@ -21,7 +21,7 @@ def BMI_Calculator():
     clear_screen()
     typing("Welcome to the BMI Calculator! 🎉\n")
     
-    typing("\nEnter your Name: ")
+    typing("Enter your Name: ")
     name = input().title()
     
     # Input for weight with validation
@@ -52,30 +52,24 @@ def BMI_Calculator():
 
     # Category determination
     if BMI < 18.5:
-        typing("\nCategory: Underweight 🧑‍⚖️\n")
+        typing("Category: Underweight 🧑‍⚖️\n")
     elif 18.5 <= BMI < 24.9:
-        typing("\nCategory: Normal Weight 🏃\n")
+        typing("Category: Normal Weight 🏃\n")
     elif 25 <= BMI < 29.9:
-        typing("\nCategory: Overweight 🍔\n")
+        typing("Category: Overweight 🍔\n")
     else:
-        typing("\nCategory: Obese 🚨\n")
+        typing("Category: Obese 🚨\n")
 
     hold_screen("\nPress Enter to continue...")
 
 while True:
     clear_screen()
-    typing("\nDo you want to calculate your BMI? (yes/no): ")
+    typing("Do you want to calculate your BMI? (yes/no): ")
     calculate = input().lower()
     if calculate == 'yes':
+        hold_screen("\nPress Enter to continue...")
         BMI_Calculator()
-
-        # Ask for recalculation 
-        typing("\nDo you want to recalculate (yes) or exit (no)? ")
-        status = input().lower()
-        if status != 'yes':
-            typing("Thank you for coming! Goodbye 👋\n")
-            break
     else:
-        typing("Thank you for your time! 😊")
+        typing("Thank you for your time! 😊\n")
         break
 
