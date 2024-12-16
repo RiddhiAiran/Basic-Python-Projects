@@ -1,6 +1,13 @@
-# Tip Calculator with Typing Effect
+# Tip Calculator
 
 Welcome to the **Tip Calculator**! This Python program helps you calculate how much each person should pay when splitting a bill, including a tip, using an interactive and user-friendly interface.
+
+---
+
+## Program Demo
+
+Below is a quick demo of the Tip Calculator program:
+
 
 ---
 
@@ -31,14 +38,14 @@ To understand and modify this program, you should be familiar with:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/basic-python-programs.git
-   cd basic-python-programs
+   git clone https://github.com/RiddhiAiran/Basic-Python-Projects.git
+   cd 2_Tip_Calculator
    ```
 
 2. **Run the Program:**
    Ensure you have Python installed on your system. Execute the script using:
    ```bash
-   python tip_calculator.py
+   python 2_Tip_Calculator.py
    ```
 
 3. **Follow the Prompts:**
@@ -47,13 +54,6 @@ To understand and modify this program, you should be familiar with:
    - Input the number of people to split the bill with.
 
 ---
-
-## Program Demo
-
-Below is a quick demo of the Tip Calculator program:
-
-![Demo](demo.gif)
-
 
 ## Code Explanation
 
