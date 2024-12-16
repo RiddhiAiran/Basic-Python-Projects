@@ -62,11 +62,6 @@ while True:
     if start_game == 'yes':
         hold_screen()
         play_game()
-        # typing("\nDo you want to play again? (yes/no) : ")
-        # replay = input().lower()
-        # if replay != 'yes':
-        #     typing("Thanks for playing! Goodbye! 👋\n")
-        #     break
     else:
         typing("Goodbye! 👋 See you next time.\n")
         break
