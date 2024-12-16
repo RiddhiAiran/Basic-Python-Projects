@@ -3,7 +3,13 @@
 Welcome to the **Band Name Generator**! This Python program helps you create a unique and fun band name based on your personal inputs using an interactive interface.
 
 ---
+## Program Demo
 
+Below is a quick demo of the Band Name Generator program:
+![project1](https://github.com/user-attachments/assets/e028493c-74d8-4466-a34f-4347b0d0acae)
+
+
+---
 ## 🚀 Features
 
 - **Typing Effect:** Simulates text being typed character by character, making the user interaction more engaging.
@@ -29,14 +35,14 @@ To understand and modify this program, you should be familiar with:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/basic-python-programs.git
-   cd basic-python-programs
+   git clone https://github.com/RiddhiAiran/Basic-Python-Projects.git
+   cd 1_Band_Name_Generator
    ```
 
 2. **Run the Program:**
    Ensure you have Python installed on your system. Execute the script using:
    ```bash
-   python band_name_generator.py
+   python 1_Band_Name_Generator
    ```
 
 3. **Follow the Prompts:**
@@ -44,14 +50,6 @@ To understand and modify this program, you should be familiar with:
    - Enter your pet's name.
 
 4. **Enjoy Your Band Name!**
-
----
-
-## Program Demo
-
-Below is a quick demo of the Band Name Generator program:
-
-
 
 ---
 
