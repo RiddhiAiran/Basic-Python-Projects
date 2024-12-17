@@ -7,6 +7,7 @@ Welcome to the **Tip Calculator**! This Python program helps you calculate how m
 ## Program Demo
 
 Below is a quick demo of the Tip Calculator program:
+![project2](https://github.com/user-attachments/assets/43f207d5-77d0-47da-a408-7c5786308d4f)
 
 
 ---
