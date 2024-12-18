@@ -1,4 +1,4 @@
-# Online Pizza Order Machine with Typing Effect
+# Online Pizza Order Machine
 
 Welcome to the **Online Pizza Order Machine**! This Python program automates your pizza ordering experience by guiding you through size selection, toppings, and calculating the final bill—all with an interactive interface and typing effect.
 
@@ -7,7 +7,7 @@ Welcome to the **Online Pizza Order Machine**! This Python program automates you
 ## Program Demo
 
 Below is a quick demo of the Online Pizza Order Machine program:
-
+![project6](https://github.com/user-attachments/assets/d582796a-d28c-4515-b728-2626feeeb4e6)
 
 ---
 
