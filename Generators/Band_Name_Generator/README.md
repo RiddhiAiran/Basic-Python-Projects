@@ -1,4 +1,4 @@
-# Band Name Generator with Typing Effect
+# Band Name Generator
 
 Welcome to the **Band Name Generator**! This Python program helps you create a unique and fun band name based on your personal inputs using an interactive interface.
 
@@ -36,13 +36,13 @@ To understand and modify this program, you should be familiar with:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/RiddhiAiran/Basic-Python-Projects.git
-   cd 1_Band_Name_Generator
+   cd Generators/Band_Name_Generator
    ```
 
 2. **Run the Program:**
    Ensure you have Python installed on your system. Execute the script using:
    ```bash
-   python 1_Band_Name_Generator
+   python band_name_generator.py
    ```
 
 3. **Follow the Prompts:**

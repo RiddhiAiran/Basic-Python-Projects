@@ -9,7 +9,6 @@ Welcome to the **Tip Calculator**! This Python program helps you calculate how m
 Below is a quick demo of the Tip Calculator program:
 ![project2](https://github.com/user-attachments/assets/43f207d5-77d0-47da-a408-7c5786308d4f)
 
-
 ---
 
 ## 🚀 Features
@@ -40,13 +39,13 @@ To understand and modify this program, you should be familiar with:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/RiddhiAiran/Basic-Python-Projects.git
-   cd 2_Tip_Calculator
+   cd Calculators/Tip_Calculator
    ```
 
 2. **Run the Program:**
    Ensure you have Python installed on your system. Execute the script using:
    ```bash
-   python 2_Tip_Calculator.py
+   python tip_calculator.py
    ```
 
 3. **Follow the Prompts:**

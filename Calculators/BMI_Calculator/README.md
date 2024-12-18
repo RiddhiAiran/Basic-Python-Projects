@@ -41,13 +41,13 @@ To understand and modify this program, you should be familiar with:
 
    ```bash
    git clone https://github.com/RiddhiAiran/Basic-Python-Projects.git
-   cd 5_BMI_Calculator
+   cd Calculators/BMI_Calculator
    ```
 
 2. Run the script using Python.
 
    ```bash
-   python 5_BMI_Calculator.py
+   python bmi_calculator.py
    ```
 
 3. Follow the prompts to calculate your BMI interactively!
