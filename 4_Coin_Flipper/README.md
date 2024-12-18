@@ -37,7 +37,7 @@ To understand and modify this program, you should be familiar with:
 1. Clone the repository or download the script.
 
    ```bash
-   git clone https://github.com/RiddhiAiran/Basic-Python-Projects
+   git clone https://github.com/RiddhiAiran/Basic-Python-Projects.git
    cd 4_Coin_Flipper
    ```
 
