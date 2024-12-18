@@ -7,6 +7,7 @@ Welcome to the **Roller Coaster Ride Program**! This Python program checks eligi
 ## Program Demo
 
 Below is a quick demo of the Roller Coaster Ride program:
+![project7](https://github.com/user-attachments/assets/437577cc-a8d8-43df-9c1b-ae43b290a173)
 
 ---
 
