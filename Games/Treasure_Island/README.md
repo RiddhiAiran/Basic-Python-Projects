@@ -40,13 +40,13 @@ To understand and modify this program, you should be familiar with:
 
    ```bash
    git clone https://github.com/RiddhiAiran/Basic-Python-Projects.git
-   cd 3_Treasure_Island
+   cd Games/Treasure_Island
    ```
 
 2. Run the script using Python.
 
    ```bash
-   python 3_Treasure_Island.py
+   python treasure_island.py
    ```
 
 3. Follow the prompts and make decisions to find the treasure. Beware of the dangers along the way!

@@ -43,13 +43,13 @@ To understand and modify this program, you should be familiar with:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/RiddhiAiran/Basic-Python-Projects.git
-   cd 6_Pizza_Delivery_Order
+   cd Text_Processing/Pizza_Delivery_Order
    ```
 
 2. **Run the Program:**
    Ensure you have Python installed on your system. Execute the script using:
    ```bash
-   python 6_Pizza_Delivery_Order.py
+   python pizza_delivery_order.py
    ```
 
 3. **Follow the Prompts:**

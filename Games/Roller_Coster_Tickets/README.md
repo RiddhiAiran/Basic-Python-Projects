@@ -46,13 +46,13 @@ To understand and modify this program, you should be familiar with:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/RiddhiAiran/Basic-Python-Projects.git
-   cd 7_Roller_Coster_Tickets
+   cd Games/Roller_Coster_Tickets
    ```
 
 2. **Run the Program:**
    Ensure you have Python installed on your system. Execute the script using:
    ```bash
-   python 7_Roller_Coster_Tickets.py
+   python roller_coster_tickets.py
    ```
 
 3. **Follow the Prompts:**

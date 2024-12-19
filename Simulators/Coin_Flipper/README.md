@@ -38,13 +38,13 @@ To understand and modify this program, you should be familiar with:
 
    ```bash
    git clone https://github.com/RiddhiAiran/Basic-Python-Projects.git
-   cd 4_Coin_Flipper
+   cd Similators/Coin_Flipper
    ```
 
 2. Run the script using Python.
 
    ```bash
-   python 4_Coin_Flipper.py
+   python coin_flipper.py
    ```
 
 3. Follow the prompts to flip a coin interactively!
