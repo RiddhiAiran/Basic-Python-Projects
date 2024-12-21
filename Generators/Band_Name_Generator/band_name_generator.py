@@ -11,7 +11,6 @@ def typing(message, delay=0.05):
         print(letter, end='', flush=True)
         time.sleep(delay)
     
-
 def band_name_generator():
     """Generate a band name based on user inputs."""
     clear_screen()

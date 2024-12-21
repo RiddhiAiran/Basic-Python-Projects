@@ -14,7 +14,6 @@ Welcome to the **BMI Calculator**! This Python program calculates your Body Mass
 
 - **Typing Effect:** Displays text character by character, creating an engaging user experience.
 - **Clear Screen Function:** Automatically clears the terminal for a clean and focused interface.
-- **Input Validation:** Ensures that weight and height inputs are positive numbers.
 - **BMI Categories:** Categorizes your BMI as Underweight, Normal Weight, Overweight, or Obese with emoji representations.
 - **Interactive Prompts:** Encourages seamless user interaction with intuitive prompts and messages.
 
@@ -31,7 +30,6 @@ To understand and modify this program, you should be familiar with:
 5. **Modules:** 
     - `os`: For clearing the terminal screen.
     - `time`: To implement the typing effect.
-6. **Error Handling:** Using `try-except` blocks for input validation.
 
 ---
 

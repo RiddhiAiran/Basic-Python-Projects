@@ -23,29 +23,11 @@ def BMI_Calculator():
     
     typing("Enter your Name: ")
     name = input().title()
-    
-    # Input for weight with validation
-    while True:
-        try:
-            typing(f"\n{name}, Please Share your weight (in kg): ")
-            weight = float(input())
-            if weight <= 0:
-                raise ValueError("\nWeight must be greater than 0.")
-            break
-        except ValueError as e:
-            typing(str(e))
+    typing(f"\n{name}, Please Share your weight (in kg): ")
+    weight = float(input())
+    typing("\nPlease Share your height (in meters): ")
+    height = float(input())
 
-    # Input for height with validation
-    while True:
-        try:
-            typing("\nPlease Share your height (in meters): ")
-            height = float(input())
-            if height <= 0:
-                raise ValueError("\nHeight must be greater than 0.")
-            break
-        except ValueError as e:
-            typing(str(e))
-    
     # BMI Calculation
     BMI = weight / (height**2)
     typing(f'\nYour BMI as per the details would be: {round(BMI, 2)}\n')
@@ -72,4 +54,3 @@ while True:
     else:
         typing("Thank you for your time! 😊\n")
         break
-

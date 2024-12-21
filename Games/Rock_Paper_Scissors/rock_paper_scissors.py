@@ -20,15 +20,12 @@ def hold_screen(message="Press Enter to continue..."):
 def get_user_choice():
     """Get and validate the user's choice."""
     while True:
-        try:
-            typing("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.")
-            user_choice = int(input())
-            if user_choice in [0, 1, 2]:
-                return user_choice
-            else:
-                typing("Invalid choice. Please enter 0, 1, or 2.")
-        except ValueError:
-            typing("Invalid input. Please enter a number (0, 1, or 2).")
+        typing("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.")
+        user_choice = int(input())
+        if user_choice in [0, 1, 2]:
+            return user_choice
+        else:
+            typing("Invalid choice. Please enter 0, 1, or 2.")
 
 def get_user_name():
     """Prompt the user for their name."""
@@ -42,9 +39,9 @@ def get_user_name():
 
 def display_choices(user_choice, computer_choice, icons):
     """Display the choices of the user and computer."""
-    typing("You chose:")
+    typing(f"You chose:{user_choice}")
     print(icons[user_choice])
-    typing("Computer chose:")
+    typing(f"Computer chose:{computer_choice}")
     print(icons[computer_choice])
 
 def determine_winner(user_choice, computer_choice):

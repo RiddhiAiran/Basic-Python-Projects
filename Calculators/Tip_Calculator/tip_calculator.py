@@ -19,12 +19,13 @@ def tip_calculator():
 
     typing("\n💵 What was the Total Bill? $")
     bill = float(input())
-    typing("\n📝 How much tip would you like to give? 10, 12, or 15? : ")
+    typing("\n 📝 How much tip would you like to give? 10, 12, or 15? : ")
     tip = float(input())
-    typing("\n🧑‍🧑‍🧒‍🧒 How many people to split the bill? (at least 1) : ")
+    typing("\n 🧑‍🧑‍🧒‍🧒 How many people to split the bill? (at least 1) : ")
     spliting = int(input())
     each = (bill + (bill*(tip/100)))/spliting
     print("-"*70)
     typing(f"\nYour Total Bill with Tip Would be : ${bill + (bill*(tip/100))}\n\nEach person should pay: ${round(each,2)}")
     print("\n")
+    
 tip_calculator()
