@@ -28,8 +28,7 @@ To understand and modify this program, you should be familiar with:
 
 1. **Python Basics:** Variables, Functions, Loops, and Conditionals.
 2. **Input/Output:** Taking user input and displaying outputs interactively.
-3. **Error Handling:** Using `try` and `except` to handle invalid inputs.
-4. **Modules:**
+3. **Modules:**
    - `os`: For clearing the terminal screen.
    - `time`: To implement the typing effect.
    - `random`: To generate random numbers.

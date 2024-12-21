@@ -20,18 +20,14 @@ def hold_screen(message="Press Enter to continue..."):
 def get_range():
     """Prompt the user for a valid range."""
     while True:
-        try:
-            typing("Enter the lower bound of the range:")
-            lower = int(input())
-            typing("Enter the upper bound of the range:")
-            upper = int(input())
-            if lower < upper:
-                return lower, upper
-            else:
-                typing("Invalid range. The lower bound must be less than the upper bound.")
-        except ValueError:
-            typing("Invalid input. Please enter valid integers.")
-
+        typing("Enter the lower bound of the range:")
+        lower = int(input())
+        typing("Enter the upper bound of the range:")
+        upper = int(input())
+        if lower < upper:
+            return lower, upper
+        else:
+            typing("Invalid range. The lower bound must be less than the upper bound.")
 
 def generate_random_number(lower, upper):
     """Random Number Generator program."""
