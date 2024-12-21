@@ -7,6 +7,7 @@ Welcome to the **Online Pizza Order Machine**! This Python program automates you
 ## Program Demo
 
 Below is a quick demo of the Online Pizza Order Machine program:
+![6project](https://github.com/user-attachments/assets/2679ec89-b042-4fa0-9613-a6e92ac95820)
 
 
 ---

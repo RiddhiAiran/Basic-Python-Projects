@@ -6,6 +6,7 @@ Welcome to the **Band Name Generator**! This Python program helps you create a u
 ## Program Demo
 
 Below is a quick demo of the Band Name Generator program:
+![1project](https://github.com/user-attachments/assets/af5f9144-0c5e-4d16-a563-b8c5e1719468)
 
 
 ---

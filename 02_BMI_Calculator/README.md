@@ -6,6 +6,7 @@ Welcome to the **BMI Calculator**! This Python program calculates your Body Mass
 
 ## 🎥 Demo
 Below is a quick demo of the BMI Calculator program:
+![2project](https://github.com/user-attachments/assets/908f433c-1efd-49bf-8e44-aee64d4ab629)
 
 ---
 
