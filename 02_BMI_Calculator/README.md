@@ -38,7 +38,7 @@ To understand and modify this program, you should be familiar with:
 
    ```bash
    git clone https://github.com/RiddhiAiran/Basic-Python-Projects.git
-   cd 2_BMI_Calculator
+   cd 02_BMI_Calculator
    ```
 
 2. Run the script using Python.

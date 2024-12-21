@@ -45,7 +45,7 @@ To understand and modify this program, you should be familiar with:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/RiddhiAiran/Basic-Python-Projects.git
-   cd 4_Roller_Coster_Tickets
+   cd 04_Roller_Coster_Tickets
    ```
 
 2. **Run the Program:**

@@ -35,7 +35,7 @@ To understand and modify this program, you should be familiar with:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/RiddhiAiran/Basic-Python-Projects.git
-   cd 1_Band_Name_Generator
+   cd 01_Band_Name_Generator
    ```
 
 2. **Run the Program:**

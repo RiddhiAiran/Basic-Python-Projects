@@ -43,7 +43,7 @@ To understand and modify this program, you should be familiar with:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/RiddhiAiran/Basic-Python-Projects.git
-   cd 6_Pizza_Delivery_Order
+   cd 06_Pizza_Delivery_Order
    ```
 
 2. **Run the Program:**

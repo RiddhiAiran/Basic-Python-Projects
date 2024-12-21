@@ -39,7 +39,7 @@ To understand and modify this program, you should be familiar with:
 
    ```bash
    git clone https://github.com/RiddhiAiran/Basic-Python-Projects.git
-   cd 7_Treasure_Island
+   cd 07_Treasure_Island
    ```
 
 2. Run the script using Python.

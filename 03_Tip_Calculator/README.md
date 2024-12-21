@@ -39,7 +39,7 @@ To understand and modify this program, you should be familiar with:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/RiddhiAiran/Basic-Python-Projects.git
-   cd 3_Tip_Calculator
+   cd 03_Tip_Calculator
    ```
 
 2. **Run the Program:**
