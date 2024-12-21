@@ -6,6 +6,7 @@ Embark on an adventurous journey in the **Treasure Island Game**! This interacti
 
 ## 🎥 Demo
 
+![7project](https://github.com/user-attachments/assets/5ca18aa2-cd79-4851-a071-fbba204e3d85)
 
 
 ---
