@@ -6,8 +6,7 @@ Welcome to the **Rock, Paper, Scissors Game**! This Python program lets you play
 ## Program Demo
 
 Below is a quick demo of the Rock, Paper, Scissors game:
-
-
+![project8](https://github.com/user-attachments/assets/c685793a-e37a-4bd1-95a6-728db6142a60)
 
 ---
 

@@ -7,8 +7,7 @@ Welcome to the **Random Number Generator Program**! This Python program generate
 ## Program Demo
 
 Below is a quick demo of the Random Number Generator program:
-
-
+![project9](https://github.com/user-attachments/assets/a584ad20-5b83-4551-869c-50c8a2273bfa)
 
 ---
 
