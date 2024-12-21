@@ -11,7 +11,3 @@
 ## 10. Banker Roulette
 ## 11. Rock Paper Scissors
 ## 12. Password Generator
-## 13. Hangman
-## 14. Number Guessing Game
-## 15. Higher Lower
-## 16. Blackjack
