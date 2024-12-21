@@ -5,8 +5,7 @@ Welcome to the **BMI Calculator**! This Python program calculates your Body Mass
 ---
 
 ## 🎥 Demo
-
-![project5](https://github.com/user-attachments/assets/8e75503a-fe05-44cc-b742-0052bd8aa98a)
+Below is a quick demo of the BMI Calculator program:
 
 ---
 
@@ -39,7 +38,7 @@ To understand and modify this program, you should be familiar with:
 
    ```bash
    git clone https://github.com/RiddhiAiran/Basic-Python-Projects.git
-   cd Calculators/BMI_Calculator
+   cd 2_BMI_Calculator
    ```
 
 2. Run the script using Python.

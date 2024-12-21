@@ -6,7 +6,6 @@ Welcome to the **Band Name Generator**! This Python program helps you create a u
 ## Program Demo
 
 Below is a quick demo of the Band Name Generator program:
-![project1](https://github.com/user-attachments/assets/e028493c-74d8-4466-a34f-4347b0d0acae)
 
 
 ---
@@ -36,7 +35,7 @@ To understand and modify this program, you should be familiar with:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/RiddhiAiran/Basic-Python-Projects.git
-   cd Generators/Band_Name_Generator
+   cd 1_Band_Name_Generator
    ```
 
 2. **Run the Program:**

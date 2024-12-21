@@ -7,7 +7,7 @@ Welcome to the **Online Pizza Order Machine**! This Python program automates you
 ## Program Demo
 
 Below is a quick demo of the Online Pizza Order Machine program:
-![project6](https://github.com/user-attachments/assets/d582796a-d28c-4515-b728-2626feeeb4e6)
+
 
 ---
 
@@ -43,7 +43,7 @@ To understand and modify this program, you should be familiar with:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/RiddhiAiran/Basic-Python-Projects.git
-   cd Text_Processing/Pizza_Delivery_Order
+   cd 6_Pizza_Delivery_Order
    ```
 
 2. **Run the Program:**

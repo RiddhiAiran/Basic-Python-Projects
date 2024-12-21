@@ -5,7 +5,6 @@ Welcome to the **Coin Flipper**! This Python program lets you flip a coin virtua
 ---
 
 ## 📽️ Demo
-![project4](https://github.com/user-attachments/assets/53d83919-78e8-429d-bd0d-c8a86556e4e8)
 
 ---
 ## 🚀 Features
@@ -38,7 +37,7 @@ To understand and modify this program, you should be familiar with:
 
    ```bash
    git clone https://github.com/RiddhiAiran/Basic-Python-Projects.git
-   cd Similators/Coin_Flipper
+   cd 9_Coin_Flipper
    ```
 
 2. Run the script using Python.

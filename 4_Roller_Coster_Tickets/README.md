@@ -7,7 +7,6 @@ Welcome to the **Roller Coaster Ride Program**! This Python program checks eligi
 ## Program Demo
 
 Below is a quick demo of the Roller Coaster Ride program:
-![project7](https://github.com/user-attachments/assets/437577cc-a8d8-43df-9c1b-ae43b290a173)
 
 ---
 
@@ -46,7 +45,7 @@ To understand and modify this program, you should be familiar with:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/RiddhiAiran/Basic-Python-Projects.git
-   cd Games/Roller_Coster_Tickets
+   cd 4_Roller_Coster_Tickets
    ```
 
 2. **Run the Program:**

@@ -7,7 +7,6 @@ Welcome to the **Random Number Generator Program**! This Python program generate
 ## Program Demo
 
 Below is a quick demo of the Random Number Generator program:
-![project9](https://github.com/user-attachments/assets/a584ad20-5b83-4551-869c-50c8a2273bfa)
 
 ---
 
@@ -40,7 +39,7 @@ To understand and modify this program, you should be familiar with:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/RiddhiAiran/Basic-Python-Projects.git
-   cd Generators/Random_Number_Generator
+   cd 8_Random_Number_Generator
    ```
 
 2. **Run the Program:**

@@ -6,7 +6,6 @@ Welcome to the **Rock, Paper, Scissors Game**! This Python program lets you play
 ## Program Demo
 
 Below is a quick demo of the Rock, Paper, Scissors game:
-![project8](https://github.com/user-attachments/assets/c685793a-e37a-4bd1-95a6-728db6142a60)
 
 ---
 
@@ -40,7 +39,7 @@ To understand and modify this program, you should be familiar with:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/RiddhiAiran/Basic-Python-Projects.git
-   cd Games/Rock_Paper_Scissors
+   cd 11_Rock_Paper_Scissors
    ```
 
 2. **Run the Program:**
@@ -91,7 +90,8 @@ You chose:
       (_____)       
       (_____)       
       (____)        
----.__(___)         
+---.__(___)  
+       
 Computer chose:
     _______
 ---'   ____)____    

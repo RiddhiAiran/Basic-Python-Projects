@@ -18,10 +18,10 @@ def hold_screen(message="Press Enter to continue..."):
 def banker_roulette():
     """Pick a Random Person to Pay the Bill."""
     clear_screen()
-    typing("Welcome to the Banker Roulette!\n")
+    typing("Welcome to the Banker Roulette!💵 \n")
     
     while True:
-        typing("Enter the names of participants, separated by commas \n")
+        typing("👤👤👤 Enter the names of participants, separated by commas: \n")
         participants = input().strip().split(',')
         
         if len(participants) < 2:
@@ -29,6 +29,6 @@ def banker_roulette():
         else:
             break
     banker = random.choice(participants)
-    typing(f"\nThe banker is: {banker.strip()}! They will pay the bill this time. 🎉\n")
+    typing(f"\nThe banker is 👤 : {banker.strip().title()}! They will pay the bill this time. 🎉\n")
 
 banker_roulette()

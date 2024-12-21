@@ -6,7 +6,6 @@ Embark on an adventurous journey in the **Treasure Island Game**! This interacti
 
 ## 🎥 Demo
 
-![project3](https://github.com/user-attachments/assets/3b349e76-4377-4ceb-bb92-6207e137e8b9)
 
 
 ---
@@ -40,7 +39,7 @@ To understand and modify this program, you should be familiar with:
 
    ```bash
    git clone https://github.com/RiddhiAiran/Basic-Python-Projects.git
-   cd Games/Treasure_Island
+   cd 7_Treasure_Island
    ```
 
 2. Run the script using Python.
