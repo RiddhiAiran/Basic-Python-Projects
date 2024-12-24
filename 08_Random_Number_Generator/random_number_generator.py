@@ -1,21 +1,6 @@
-import os
-import time
+from common_functions import typing, hold_screen, clear_screen, get_input
 import random 
-
-def clear_screen():
-    """Clear the console screen."""
-    os.system('cls' if os.name == 'nt' else 'clear')
-    
-def typing(message, delay=0.05):
-    """Print a message with a typing effect."""
-    for letter in message:
-        print(letter, end='', flush=True)
-        time.sleep(delay)
-    print()
-
-def hold_screen(message="Press Enter to continue..."):
-    """Hold the screen until the user presses Enter."""
-    input(message)
+import time 
 
 def get_range():
     """Prompt the user for a valid range."""
@@ -42,7 +27,6 @@ def random_number_generator():
         clear_screen()
         lower, upper = get_range()
         random_number = generate_random_number(lower, upper)
-
         typing(f"Generating a random number between {lower} and {upper}...")
         time.sleep(1)
         typing(f"Your random number is: {random_number}")

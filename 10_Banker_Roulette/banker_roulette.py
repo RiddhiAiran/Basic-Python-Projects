@@ -1,19 +1,5 @@
-import os 
-import time
 import random
-
-def clear_screen():
-    """Clear the console screen."""
-    os.system('cls' if os.system == 'nt' else 'clear')
-
-def typing(message, delay = 0.05):
-    """Print a message with a typing effect."""
-    for letter in message:
-        print(letter, end='', flush=True)
-        time.sleep(delay)
-
-def hold_screen(message="Press Enter to continue..."):
-    input(message)
+from common_functions import typing, hold_screen, clear_screen, get_input
 
 def banker_roulette():
     """Pick a Random Person to Pay the Bill."""
