@@ -6,6 +6,7 @@ Welcome to the **Banker Roulette**! This program helps pick a random participant
 
 ## Program Demo
 Below is a quick demo of the Banker Roulette program:
+![10project](https://github.com/user-attachments/assets/23365792-f9e2-4ab1-9de9-56ba56b770fe)
 
 ---
 
