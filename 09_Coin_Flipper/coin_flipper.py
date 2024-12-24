@@ -6,20 +6,24 @@ def flip_coin():
     """Main coin flipper logic."""
     clear_screen()
     typing("🪙 Welcome to the Coin Flipper 🪙\n")
-    hold_screen()
     typing("\n🪙 Flipping a coin...\n")
-    time.sleep(1) # adding a delay for effect
+    time.sleep(1.5) # adding a delay for effect
     flip = random.choice(["Heads", "Tails"])
     typing(f"The result is: {flip}!\n")
     hold_screen()
 
 #Main Loop
-while True:
-    clear_screen()
-    typing("Do you want to flip the coin? (yes/no) :")
-    start = input().lower()
-    if start == 'yes':
-        flip_coin()
-    else:
-        typing("Goodbye! 👋 See you next time.")
-        break
+def main():
+    """Main Function to Run the Flipper"""
+    while True:
+        clear_screen()
+        start = get_input("Do you want to flip the coin? (yes/no) :").lower()
+        if start == 'yes':
+            hold_screen()
+            flip_coin()
+        else:
+            typing("Goodbye! 👋 See you next time.\n")
+            break
+
+if __name__ == '__main__':
+    main()

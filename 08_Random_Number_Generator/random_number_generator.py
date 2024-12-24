@@ -12,7 +12,7 @@ def get_range():
         if lower < upper:
             return lower, upper
         else:
-            typing("Invalid range. The lower bound must be less than the upper bound.")
+            typing("Invalid range. The lower bound must be less than the upper bound.\n")
 
 def generate_random_number(lower, upper):
     """Random Number Generator program."""
@@ -21,20 +21,26 @@ def generate_random_number(lower, upper):
 def random_number_generator():
     """Random Number Generator program."""
     clear_screen()
-    typing("Welcome to the Random Number Generator!", delay=0.07)
+    typing("Welcome to the Random Number Generator!\n")
+    lower, upper = get_range()
+    random_number = generate_random_number(lower, upper)
+    typing(f"Generating a random number between {lower} and {upper}...\n")
+    time.sleep(1)
+    typing(f"Your random number is: {random_number}\n")
     hold_screen()
+
+def main():
+    """ Main Function to run the Generator """
     while True:
+        
         clear_screen()
-        lower, upper = get_range()
-        random_number = generate_random_number(lower, upper)
-        typing(f"Generating a random number between {lower} and {upper}...")
-        time.sleep(1)
-        typing(f"Your random number is: {random_number}")
-        typing("Do you want to generate another random number? (yes/no)")
-        play_again = input().strip().lower()
-        if play_again not in ["yes","y"]:
-            typing("Thanks for using the Random Number Generator! Goodbye!")
+        play_again = get_input("Do you want to generate another random number? (yes/no) : ").lower()
+        if play_again == "yes":
+            hold_screen()
+            random_number_generator()
+        else:
+            typing("Thanks for Coming, Goodbye!\n")
             break
     
-# Run the random number generator
-random_number_generator()
+if __name__ == '__main__':
+    main()

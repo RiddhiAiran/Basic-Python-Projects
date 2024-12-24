@@ -1,4 +1,8 @@
+from common_functions import typing, hold_screen, clear_screen, get_input
+
+
 def calculate_love_score(name1, name2):
+    """Main Logic of the program"""
     # Combine both names and convert to lowercase
     combined_names = (name1 + name2).lower()
     
@@ -16,4 +20,18 @@ def calculate_love_score(name1, name2):
     love_score_combined = str(true_score) + str(love_score)
     print(int(love_score_combined))
 
-calculate_love_score("Angela Yu","Jack Bauer")
+# Main program
+def main():
+    """Main Function to Run the Program"""
+    while True:
+        clear_screen()
+        status = get_input("Do you want to calculate your love? (y/n) : ").lower()
+        if status == "y":
+            calculate_love_score(get_input("Enter Your Name : "), get_input("Enter your Partner Name: "))
+            hold_screen()
+        else:
+            typing("Good Bye!\n")
+            break
+        
+if __name__ == '__main__':
+    main()

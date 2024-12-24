@@ -10,7 +10,7 @@ def band_name_generator():
     pet = get_input("\n🐾 What's your pet's name? ")
     
     # Generate and display the result
-    typing(f"\n✨ Your Band Name Could Be: The {city.title()} {pet.title()} ✨\n\n")
+    typing(f"\n✨ Your Band Name Could Be: The {city} {pet} ✨\n")
 
 if __name__ == "__main__":
     band_name_generator()

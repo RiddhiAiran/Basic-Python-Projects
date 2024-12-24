@@ -4,7 +4,7 @@ def even_odd():
     """Check if Number is Even or Odd"""
     clear_screen()
     typing("Welcome to the Even and Odd Number Checker !\n")
-    num = get_input("Enter your Number : ",is_float=True)
+    num = get_input("Enter your Number : ",is_int=True)
     if num % 2 == 0:
         typing(f"{num} is an Even Number \n")
     else:

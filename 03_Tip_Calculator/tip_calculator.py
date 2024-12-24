@@ -7,7 +7,7 @@ def tip_calculator():
 
     bill = get_input("\n💵 What was the Total Bill? $", is_float=True)
     tip = get_input("\n 📝 How much tip would you like to give? 10, 12, or 15? : ", is_float=True)
-    spliting = get_input("\n 🧑‍🧑‍🧒‍🧒 How many people to split the bill? (at least 1) : ", is_float=True)
+    spliting = get_input("\n 🧑‍🧑‍🧒‍🧒 How many people to split the bill? (at least 1) : ", is_int=True)
     total_bill = bill + (bill*(tip/100))
     each_share = total_bill/spliting
     print("-"*70)

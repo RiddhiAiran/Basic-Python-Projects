@@ -1,8 +1,7 @@
 import random
 from common_functions import typing, hold_screen, clear_screen, get_input
-from logo import logo, stages
-from words import word_list
-
+from .logo import logo, stages  # Relative import for logo and stages
+from .words import word_list  # Relative import for word_list
 
 def game():
     """Hangman Game Logic"""
@@ -24,8 +23,7 @@ def game():
         print(f"Word to guess: {' '.join(placeholder)}")
         print(f"************** {lives}/6 Lives Left ********************")
 
-        typing("Guess a letter: ")
-        guess = input().strip().lower()
+        guess = get_input("Guess a letter: ").lower()
 
         clear_screen()
         print(logo)
@@ -58,13 +56,18 @@ def game():
             hold_screen()
             clear_screen()
 
+def main():
+    """Main Function to Run the Game"""
+    while True:
+        clear_screen()
+        status = get_input("Do you want to Play Hangman Game ? (y/n) : ").lower()
+        if status == 'y':
+            hold_screen()
+            game()
+        else:
+            typing("Goodbye! 👋 See you next time.\n")
+            break
 
-while True:
-    clear_screen()
-    typing("Do you want to Play Hangman Game ? (y/n) : ")
-    status = input().strip().lower()
-    if status not in ['y','yes']:
-        typing("Good Bye!\n")
-        break
-    else:
-        game()
+
+if __name__ == '__main__':
+    main()

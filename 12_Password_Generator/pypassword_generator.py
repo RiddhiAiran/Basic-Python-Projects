@@ -11,13 +11,9 @@ def pypassword():
     while True :
         clear_screen()
         typing("Welcome to the Python Password Generator!\n")
-        typing("How Many Letters do you want ? ")
-        n_letters = int(input().strip())
-        typing("How Many Symbols do you want ? ")
-        n_symbols = int(input().strip())
-        typing("How Many Numbers do you want ? ")
-        n_numbers = int(input().strip())
-
+        n_letters = get_input("How Many Letters do you want ? ",is_int=True)
+        n_symbols = get_input("How Many Symbols do you want ? ",is_int=True)
+        n_numbers = get_input("How Many Numbers do you want ? ",is_int=True)
         if n_letters < 0 or n_symbols < 0 or n_numbers < 0:
             typing("Please enter Positive Numbers for all inputs.\n")
             hold_screen()
@@ -30,5 +26,20 @@ def pypassword():
     random.shuffle(password)
     generated_password = ''.join(password)
     typing(f"\nYour Secure Password is: {generated_password}\n")
+    hold_screen()
 
-pypassword()
+#Main Loop
+def main():
+    """Main Function to Run the Generator"""
+    while True:
+        clear_screen()
+        start = get_input("Want to Generate a Strong Password? (yes/no) :").lower()
+        if start == 'yes':
+            hold_screen()
+            pypassword()
+        else:
+            typing("Goodbye! 👋 See you next time.\n")
+            break
+
+if __name__ == '__main__':
+    main()

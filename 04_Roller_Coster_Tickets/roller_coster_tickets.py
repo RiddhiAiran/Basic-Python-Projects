@@ -1,6 +1,7 @@
 from common_functions import typing, hold_screen, clear_screen, get_input
 
 def height_checker(height):
+    """Check User Height"""
     return height >= 120
     
 def fees_with_age(age):
@@ -21,14 +22,13 @@ def roller_coster_ride():
     typing("🎡 Welcome to The Roller Coaster! 🎢\n")
     
     # Get user details
-    name = get_input("Enter your Name: ").title()
+    name = get_input("Enter your Name: ")
     height = get_input("Please enter your Height (in cms): ", is_float=True)
     
     if height_checker(height):
         typing("You can ride the roller coaster!\n")
-
         # Get age and calculate base ticket cost
-        age = get_input("What's your Age: ", is_float=True)
+        age = get_input("What's your Age: ", is_int=True)
         cost = fees_with_age(age)
         
         # Check if the user wants a photo

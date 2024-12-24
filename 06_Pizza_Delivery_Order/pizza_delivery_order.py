@@ -1,6 +1,5 @@
 from common_functions import typing, hold_screen, clear_screen, get_input
 
-
 def pizza_bill(size, pepperoni, extra_cheese):
     """Calculate the total pizza bill based on size, pepperoni, and cheese options."""
     # Base prices
@@ -12,15 +11,13 @@ def pizza_bill(size, pepperoni, extra_cheese):
         bill += pepperoni_prices[size]
     if extra_cheese == 'Y':
         bill += 1  # Extra cheese cost
-    
     return bill
-
 
 def pizza_order():
     """Handle the pizza ordering process."""
     clear_screen()
     typing("🍕🍕 Welcome to the Pizza Order Machine!🍕 \n")
-    name = get_input("Enter your Name: ").title()
+    name = get_input("Enter your Name: ")
     size = get_input("🫓 What Size Pizza do you want? S, M or L?: ").upper()
     pepperoni = input("🥫 Do you want Pepperoni on your pizza? Y or N: ").upper()
     extra_cheese = input("🧀 Do you want extra Cheese? Y or N: ").upper()
@@ -36,6 +33,7 @@ def pizza_order():
     hold_screen()
 
 def main():
+    """Main Function to run the pizza order. """
     while True:
         clear_screen()
         order = get_input("Do you want to Order a Pizza 🍕 ? (Y or N) : ").upper()
