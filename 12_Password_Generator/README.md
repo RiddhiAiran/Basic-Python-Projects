@@ -6,6 +6,7 @@ Welcome to the **Python Password Generator**! This program generates a secure, r
 
 ## Program Demo
 Below is a quick demo of the Python Password Generator program:
+![12project](https://github.com/user-attachments/assets/65c118f8-d1d4-47b6-b0b0-5188a540e9b1)
 
 ---
 
