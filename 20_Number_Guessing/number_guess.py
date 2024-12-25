@@ -25,24 +25,40 @@ def logic(random_digit, guess):
     else:  # Only possibility left is guess < random_digit
         return "Too Low!"
 
-clear_screen()
-print(logo)
-typing("Welcome to the Number Guessing Game!\n")
-typing("I'm thinking of a number between 1 and 100.\n")
+def game():
+    clear_screen()
+    print(logo)
+    typing("Welcome to the Number Guessing Game!\n")
+    typing("I'm thinking of a number between 1 and 100.\n You need to guess that number\n")
 
-random_digit = random_number()
+    random_digit = random_number()
 
-choice = get_input("Choose a difficulty. Type 'easy' or 'hard': ").lower()
-attempts = level(choice)
-typing(f"You have {attempts} attempts remaining to guess the number.\n")
-while attempts > 0:
-    guess = get_input("Make a guess: ",is_int=True)
-    message = logic(random_digit, guess)
-    print(message)
-    if message == "You Guessed it Right!":
-         break
-    attempts -= 1
+    choice = get_input("Choose a difficulty. Type 'easy' or 'hard': ").lower()
+    attempts = level(choice)
     typing(f"You have {attempts} attempts remaining to guess the number.\n")
+    while attempts > 0:
+        guess = get_input("Make a guess: ",is_int=True)
+        message = logic(random_digit, guess)
+        print(message)
+        if message == "You Guessed it Right!":
+            break
+        attempts -= 1
+        typing(f"You have {attempts} attempts remaining to guess the number.\n")
 
-typing(f"Correct Answer : {random_digit}\n")
-typing("Thanks for playing!\n")
+    typing(f"Correct Answer : {random_digit}\n")
+    typing("Thanks for playing!\n")
+    hold_screen()
+
+def main():
+    while True:
+        clear_screen()
+        play = get_input("Do you want Play Number Guessing Game ?(y/n): ").lower()
+        if play == "y":
+            hold_screen()
+            game()
+        else:
+            typing("Thank you for Coming!")
+            break
+
+if __name__ == "__main__":
+    main()

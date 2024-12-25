@@ -1,4 +1,5 @@
 # Basic_Python_Projects
+
 ## 1. Band Name Generator
 ## 2. BMI Calculator
 ## 3. Tip Calculator
@@ -11,3 +12,13 @@
 ## 10. Banker Roulette
 ## 11. Rock Paper Scissors
 ## 12. Password Generator
+## 13. Hangman
+## 14. Caesar Cipher
+## 15. Love Calculator
+## 16. Secret Auction
+## 17. Leap Year
+## 18. Python Calculator
+## 19. Blackjack
+## 20. Number Guessing Game
+## 21. Prime Number Checker
+## 22. Higher Lower Game
