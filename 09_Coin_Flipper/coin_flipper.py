@@ -9,7 +9,7 @@ def flip_coin():
     typing("\n🪙 Flipping a coin...\n")
     time.sleep(1.5) # adding a delay for effect
     flip = random.choice(["Heads", "Tails"])
-    typing(f"The result is: {flip}!\n")
+    typing(f"\nThe result is: {flip}!\n")
     hold_screen()
 
 #Main Loop

@@ -22,7 +22,8 @@ def pizza_order():
     pepperoni = input("🥫 Do you want Pepperoni on your pizza? Y or N: ").upper()
     extra_cheese = input("🧀 Do you want extra Cheese? Y or N: ").upper()
     bill = pizza_bill(size,pepperoni,extra_cheese)
-
+    hold_screen()
+    clear_screen()
     # Provide feedback
     typing(f"\nThank you, {name}! Here's your order summary:\n")
     typing(f"   - Pizza Size: {size}\n")
@@ -38,6 +39,7 @@ def main():
         clear_screen()
         order = get_input("Do you want to Order a Pizza 🍕 ? (Y or N) : ").upper()
         if order == 'Y':
+            hold_screen()
             pizza_order()
         else:
             typing("Goodbye! 👋\n")

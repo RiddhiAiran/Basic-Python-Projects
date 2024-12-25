@@ -49,6 +49,7 @@ def main():
         clear_screen()
         ride = get_input("Do you want to go on the roller coaster ride? (Y or N): ").lower()
         if ride == 'y':
+            hold_screen()
             roller_coster_ride()
         else:
             typing("Thank you for coming! 🎉\n")
