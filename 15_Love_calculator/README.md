@@ -7,7 +7,6 @@ Welcome to the **Love Calculator**! This program calculates a "love score" betwe
 ## Program Demo
 Here’s a quick demonstration of the Love Calculator in action:
 
-
 ---
 
 ## 🚀 Features

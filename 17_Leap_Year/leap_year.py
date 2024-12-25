@@ -19,6 +19,7 @@ def main():
         status = get_input("Want to check for Leap Year ? (y/n) : ").lower()
         if status == 'y':
             hold_screen()
+            clear_screen()
             is_leap_year(get_input("Enter the Year : ", is_int=True))
             hold_screen()
         else:
