@@ -22,3 +22,6 @@
 ## 20. Number Guessing Game
 ## 21. Prime Number Checker
 ## 22. Higher Lower Game
+## 23. Generation Finder
+## 24. Words In Book
+## 25. Follors Faceoff 
