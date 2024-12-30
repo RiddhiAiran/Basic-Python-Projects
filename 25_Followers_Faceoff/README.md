@@ -1,7 +1,6 @@
-```markdown
-# 🎭 Higher or Lower Game
+# 🎭 Followers_Faceoff
 
-Welcome to the **Higher or Lower Game**! Test your knowledge of celebrities and social media by guessing who has more followers. Can you set a new high score?
+Welcome to the **Followers_Faceoff**! Test your knowledge of celebrities and social media by guessing who has more followers. Can you set a new high score?
 
 ---
 
@@ -111,4 +110,3 @@ This project is licensed under the MIT License.
 ---
 
 Put your celebrity knowledge to the test and have fun! 🌟
-```

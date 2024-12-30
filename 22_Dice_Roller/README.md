@@ -1,4 +1,3 @@
-```markdown
 # 🎲 Dice Roller Game
 
 Welcome to the **Dice Roller Game**! This simple Python program allows you to roll a virtual dice and see the result with an engaging user experience.
@@ -90,4 +89,3 @@ You Got: 🎲
 ---
 
 Enjoy the game and may the dice roll in your favor! 🎉
-```
